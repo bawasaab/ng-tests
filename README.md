@@ -4,6 +4,7 @@
 #UNIT TEST
 ----------
 
+<pre>
 here include file to be tested.
 
 describe( 'enter test suit name', () => {
@@ -16,3 +17,5 @@ describe( 'enter test suit name', () => {
         expect( saveResultInVariable ).toBe('hi');
     } );
 } );
+
+</pre>
