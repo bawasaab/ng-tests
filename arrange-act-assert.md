@@ -1,4 +1,21 @@
 <pre>
+
+export class VoteComponent {
+  
+  totalVotes = 0;
+  
+  upVote() {
+    this.totalVotes++;
+  }
+  
+  downVote() {
+    this.totalVotes--;
+  }
+}
+
+</pre>
+
+<pre>
 import { VoteComponent } from './VoteComponent';
 
 describe( 'VoteComponent', () => {
