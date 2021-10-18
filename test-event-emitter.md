@@ -45,7 +45,8 @@ it( 'should raise vote changed event when up voted', () => {
     component.upVote();
     
     // assert part
-    expect(totalVotes).not.toBeNull();
+    // expect(totalVotes).not.toBeNull();
+    expect(totalVotes).toBe(1);
 } );
 
 } );
