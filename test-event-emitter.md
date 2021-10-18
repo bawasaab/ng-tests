@@ -1,3 +1,4 @@
+# VoteComponent
 <pre>
 
 import { EventEmitter } from '@angular/core';
@@ -20,3 +21,7 @@ export class VoteComponent {
 
 
 </pre>
+
+
+# VoteComponent test event emitter
+
