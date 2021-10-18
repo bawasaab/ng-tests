@@ -3,7 +3,7 @@
 
 here include file to be tested.
 
-describe( 'test suit name', () => {
+describe( 'enter test suit name', () => {
 
 
     it( 'test description i.e. should return a message hi', () => {
