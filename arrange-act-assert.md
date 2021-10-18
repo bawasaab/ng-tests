@@ -1,3 +1,4 @@
+<pre>
 import { VoteComponent } from './VoteComponent';
 
 describe( 'VoteComponent', () => {
@@ -11,3 +12,4 @@ describe( 'VoteComponent', () => {
   // assert Part: to observe the test output.
   expect( component.totalVotes ).toBe(1);
 } );
+</pre>
