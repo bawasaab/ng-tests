@@ -23,6 +23,7 @@ export class VoteComponent {
 
 # VoteComponent test event emitter
 
+<pre>
 import { VoteComponent } from './VoteComponent';
 
 describe( 'VoteComponent', () => {
@@ -48,3 +49,5 @@ it( 'should raise vote changed event when up voted', () => {
 } );
 
 } );
+
+</pre>
