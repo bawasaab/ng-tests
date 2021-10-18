@@ -44,7 +44,7 @@ it( 'should raise vote changed event when up voted', () => {
     // act part
     component.upVote();
     
-    // assert
+    // assert part
     expect(totalVotes).not.toBeNull();
 } );
 
